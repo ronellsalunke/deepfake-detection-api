@@ -1,0 +1,15 @@
+[project]
+name = "deepfake-detection-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10, <3.13"
+dependencies = [
+    "fastapi>=0.129.2",
+    "numpy>=2.2.6",
+    "opencv-python-headless>=4.13.0.92",
+    "python-multipart>=0.0.22",
+    "tensorflow>=2.20.0",
+    "tf-keras>=2.20.1",
+    "uvicorn>=0.41.0",
+]
